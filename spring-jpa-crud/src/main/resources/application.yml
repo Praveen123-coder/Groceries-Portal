@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://host.docker.internal:3307/demo
+    username: appuser
+    password: app123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
